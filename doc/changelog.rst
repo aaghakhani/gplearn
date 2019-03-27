@@ -7,8 +7,9 @@ Release History
 Version 0.4.0
 -------------
 
-- Following scikit-learn's lead, gplearn will no longer support Python 2.7 or
-  Python 3.4.
+- Following the lead of ``scikit-learn``, gplearn will no longer support
+  Python 2.7 or Python 3.4. ``scikit-learn`` 0.20.0 or newer will also be
+  required due to recent changes in their testing suite.
 - Allow users to exclude constants from their programs by setting
   ``const_range=None`` in :class:`genetic.SymbolicRegressor` or
   :class:`genetic.SymbolicTransformer`.
